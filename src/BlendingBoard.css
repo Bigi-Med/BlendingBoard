@@ -1,0 +1,50 @@
+.headerBar{
+    background-color: white;
+    position: relative;
+    top:0px;
+    right:0px;
+    left:0px;
+    height:30%
+
+}
+.checkmark{
+    margin-left:90%;
+}
+.counter{
+    text-align: center;
+    padding-top: 1%;
+    font-size:45px;
+}
+
+#col1{
+    display: flex;
+}
+
+#col11{
+    flex: 0.1;
+}
+
+#col12{
+    flex:0.1;
+}
+
+#all{
+    margin-left:1%;
+    text-align: center;
+    background-color: rgb(166, 163, 163);
+    width:40%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    font-size:20px;
+}
+
+#none{
+    margin-left:1%;
+    text-align: center;
+    background-color: rgb(166, 163, 163);
+    width:40%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    font-size:20px;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="BlendingBoard.css">
+    <title>Blending Board</title>
+  </head>
+    <body>
+        <div class="headerBar">
+            <div class="counter">0 selected</div>
+            <img src="../assets/checkmark-no-background.png" class="checkmark"></div>
+        </div>
+        <div id="container">
+          <div id = 'col1'>
+            <div id="col11"></div>
+            <script>
+              var allCounter = 5;
+
+              var firstCol = document.getElementById('col11');
+              for( var i = 0; i< allCounter ; i++)
+              {
+                var divAll = document.createElement('div');
+                divAll.id = 'all';
+                divAll.textContent = 'All';
+                firstCol.appendChild(divAll)
+              }
+            </script>
+            <div id="col12"></div>
+            <script>
+              var noneCounter = 5;
+
+              var firstCol = document.getElementById('col12');
+              for( var i = 0; i< allCounter ; i++)
+              {
+                var divNone = document.createElement('div');
+                divNone.id = 'none';
+                divNone.textContent = 'None';
+                firstCol.appendChild(divNone)
+              }
+            </script>
+          </div>
+        </div>
+
+    </body>
+</html>
